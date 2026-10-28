@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CherryMX") (type "Legacy") (uri "${KIPRJMOD}/lib/kicad-libraries/symbols/CherryMX.lib") (options "") (descr "sszczep Cherry MX symbols"))
+	(lib (name "vitalis_personal_lib") (type "KiCad") (uri "${KIPRJMOD}/lib/vitalis_personal_lib.kicad_sym") (options "") (descr ""))
+)
