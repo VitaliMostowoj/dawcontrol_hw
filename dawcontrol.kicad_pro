@@ -430,7 +430,7 @@
         "uuid": "bc32a1be-1dc8-401a-892f-2aaec1049f65"
       }
     ],
-    "used_designators": "#PWR1-25,C1-8,CH1\\-Mute1,CH1\\-Record/Monitor1,CH1\\-Select1,CH1\\-Solo1,D1-8,M1-8,R1-16,RV1-8,SW1-8,U1-59",
+    "used_designators": "#PWR1-28,C1-8,CH1\\-Mute1,CH1\\-Record/Monitor1,CH1\\-Select1-2,CH1\\-Solo1,D1-8,M1-8,R1-18,RV1-8,SW1-8,U1-59",
     "variants": []
   },
   "sheets": [

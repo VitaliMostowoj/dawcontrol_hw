@@ -288,14 +288,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LIST-A683CEGBW"
+	(symbol "CherryMX_SK6812MINI-E"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 6.604 0)
+			(at 0 10.922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -304,8 +304,8 @@
 				)
 			)
 		)
-		(property "Value" "LIST-A683CEGW"
-			(at 0 4.572 0)
+		(property "Value" "CherryMX_SK6812MINI-E"
+			(at 0 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -347,7 +347,33 @@
 				)
 			)
 		)
-		(symbol "LIST-A683CEGBW_1_1"
+		(symbol "CherryMX_SK6812MINI-E_0_1"
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy 2.54 5.08) (xy 0 5.08) (xy 2.54 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CherryMX_SK6812MINI-E_1_1"
 			(rectangle
 				(start -5.08 2.54)
 				(end 5.08 -2.54)
@@ -359,10 +385,10 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -7.62 1.27 0)
-				(length 2.54)
-				(name "VSS"
+			(pin input inverted
+				(at -7.62 3.81 0)
+				(length 6.35)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -378,9 +404,27 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -1.27 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at 7.62 3.81 180)
+				(length 6.35)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -398,6 +442,24 @@
 			(pin input line
 				(at 7.62 1.27 180)
 				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -1.27 180)
+				(length 2.54)
 				(name "DOUT"
 					(effects
 						(font
@@ -414,9 +476,9 @@
 				)
 			)
 			(pin input line
-				(at 7.62 -1.27 180)
+				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "VDD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
